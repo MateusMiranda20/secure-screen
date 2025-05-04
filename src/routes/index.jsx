@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 
-import PublicScreen from "../components/PublicScreen";
-import SecureScreen from "../components/SecureScren";
+import PublicScreen from "../components/OnePage/PublicScreen";
+import SecureScreen from "../components/twoPage/SecureScren";
 
 export default function Rotas(){
     return (
