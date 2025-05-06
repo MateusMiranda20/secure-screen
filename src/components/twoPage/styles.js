@@ -20,13 +20,13 @@ export const Button = styled.button`
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
-  cursor: pointer;
   font-size: 1rem;  
   width: 300px;
+  cursor: pointer;
   margin:0 auto;
 `
 export const H2 = styled.h2`
-margin-top: 20px;
+  margin-top: 20px;
   color: white;
   font-size: 2rem;
   text-align: center;
