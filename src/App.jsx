@@ -1,6 +1,7 @@
 import Routes from "./routes"
 import { GlobalStyles } from "./styles/GlobalStyles"
 import { AccessProvider } from "./context/AccessContext"
+import { SocketProvider } from "./context/SocketContext"
 
 function App() {
 
@@ -8,7 +9,9 @@ function App() {
     <>
       <GlobalStyles />
       <AccessProvider>
-        <Routes />
+        <SocketProvider>
+          <Routes />
+        </SocketProvider>
       </AccessProvider>
     </>
   )
